@@ -1,2 +1,9 @@
 # SwiftExtensions
-Swift useful extensions
+Swift useful extensions (inspired by ruby)
+
+## Dictionary
+ - merge
+
+## NSURL
+ - allQueryItems
+ - queryItemForKey
