@@ -7,3 +7,7 @@ Swift useful extensions (inspired by ruby)
 ## NSURL
  - allQueryItems
  - queryItemForKey
+
+## String
+ - replace
+ - titleize
