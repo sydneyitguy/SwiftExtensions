@@ -17,6 +17,17 @@ extension String {
 
         return dropLast(join)
     }
+
+    /**
+        Returns an array of strings, each of which is a substring of self formed by splitting it on separator.
+        :param: separator Character used to split the string
+        :returns: Array of substrings
+    */
+    func explode(separator: Character) -> [String] {
+        return split(self, isSeparator: { (element: Character) -> Bool in
+            return element == separator
+        })
+    }
 }
 
 infix operator =~ {}
